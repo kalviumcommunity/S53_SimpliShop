@@ -1,0 +1,1488 @@
+[
+  {
+    "id": "p1",
+    "name": "Sony WH-CH510",
+    "brand": "Sony",
+    "category": "headphones",
+    "description": "Lightweight wireless on-ear headphones with long battery life.",
+    "price": 59,
+    "specs": {
+      "battery_life": "35 hours",
+      "weight": "132g",
+      "wireless": "Bluetooth 5.0"
+    },
+    "pros": [
+      "Affordable",
+      "Good battery life",
+      "Lightweight"
+    ],
+    "cons": [
+      "Plastic build",
+      "No noise cancellation"
+    ],
+    "tags": [
+      "headphones",
+      "sony",
+      "wireless",
+      "budget"
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Bose QuietComfort 45",
+    "brand": "Bose",
+    "category": "headphones",
+    "description": "Wireless over-ear headphones with active noise cancellation and balanced sound.",
+    "price": 329,
+    "specs": {
+      "battery_life": "24 hours",
+      "weight": "238g",
+      "wireless": "Bluetooth 5.1"
+    },
+    "pros": [
+      "Excellent noise cancellation",
+      "Comfortable fit",
+      "Clear audio"
+    ],
+    "cons": [
+      "Expensive",
+      "Basic design"
+    ],
+    "tags": [
+      "headphones",
+      "bose",
+      "wireless",
+      "premium"
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Apple iPhone 13",
+    "brand": "Apple",
+    "category": "smartphone",
+    "description": "Apple's 2021 flagship smartphone with A15 Bionic chip.",
+    "price": 799,
+    "specs": {
+      "display": "6.1-inch OLED",
+      "storage": "128GB",
+      "battery_life": "19 hours video playback"
+    },
+    "pros": [
+      "Great camera",
+      "Strong performance",
+      "Long software support"
+    ],
+    "cons": [
+      "Expensive",
+      "No 120Hz display"
+    ],
+    "tags": [
+      "smartphone",
+      "apple",
+      "iphone",
+      "ios"
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Samsung Galaxy S21",
+    "brand": "Samsung",
+    "category": "smartphone",
+    "description": "Flagship smartphone with AMOLED 120Hz display and versatile cameras.",
+    "price": 699,
+    "specs": {
+      "display": "6.2-inch AMOLED 120Hz",
+      "storage": "128GB",
+      "battery": "4000mAh"
+    },
+    "pros": [
+      "120Hz smooth display",
+      "Great cameras",
+      "Good performance"
+    ],
+    "cons": [
+      "Plastic back",
+      "No charger in box"
+    ],
+    "tags": [
+      "smartphone",
+      "samsung",
+      "android",
+      "flagship"
+    ]
+  },
+  {
+    "id": "p5",
+    "name": "Google Pixel 7",
+    "brand": "Google",
+    "category": "smartphone",
+    "description": "Google's flagship with Tensor G2 chip and advanced AI camera features.",
+    "price": 599,
+    "specs": {
+      "display": "6.3-inch OLED 90Hz",
+      "storage": "128GB",
+      "battery": "4355mAh"
+    },
+    "pros": [
+      "Best-in-class camera",
+      "Pure Android experience",
+      "AI features"
+    ],
+    "cons": [
+      "Average battery",
+      "Limited availability"
+    ],
+    "tags": [
+      "smartphone",
+      "google",
+      "android",
+      "pixel"
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "OnePlus 11",
+    "brand": "OnePlus",
+    "category": "smartphone",
+    "description": "Premium smartphone with Snapdragon 8 Gen 2 and Hasselblad cameras.",
+    "price": 649,
+    "specs": {
+      "display": "6.7-inch AMOLED 120Hz",
+      "storage": "256GB",
+      "battery": "5000mAh"
+    },
+    "pros": [
+      "Fast charging",
+      "Beautiful display",
+      "Strong performance"
+    ],
+    "cons": [
+      "No wireless charging",
+      "Camera still behind Apple/Samsung"
+    ],
+    "tags": [
+      "smartphone",
+      "oneplus",
+      "android",
+      "performance"
+    ]
+  },
+  {
+    "id": "p7",
+    "name": "Apple MacBook Air M2",
+    "brand": "Apple",
+    "category": "laptop",
+    "description": "Ultra-thin laptop with Apple M2 chip and Liquid Retina display.",
+    "price": 1199,
+    "specs": {
+      "display": "13.6-inch Liquid Retina",
+      "storage": "256GB SSD",
+      "ram": "8GB"
+    },
+    "pros": [
+      "Lightweight",
+      "Great battery life",
+      "Fast performance"
+    ],
+    "cons": [
+      "Expensive upgrades",
+      "Only two USB-C ports"
+    ],
+    "tags": [
+      "laptop",
+      "apple",
+      "macbook",
+      "m2"
+    ]
+  },
+  {
+    "id": "p8",
+    "name": "Dell XPS 13",
+    "brand": "Dell",
+    "category": "laptop",
+    "description": "Premium Windows ultrabook with InfinityEdge display.",
+    "price": 999,
+    "specs": {
+      "display": "13.4-inch FHD+",
+      "storage": "512GB SSD",
+      "ram": "16GB"
+    },
+    "pros": [
+      "Compact design",
+      "Strong build",
+      "Good performance"
+    ],
+    "cons": [
+      "High price",
+      "Mediocre webcam"
+    ],
+    "tags": [
+      "laptop",
+      "dell",
+      "xps",
+      "windows"
+    ]
+  },
+  {
+    "id": "p9",
+    "name": "Sony PlayStation 5",
+    "brand": "Sony",
+    "category": "gaming console",
+    "description": "Next-gen gaming console with ray tracing and 4K gameplay.",
+    "price": 499,
+    "specs": {
+      "storage": "825GB SSD",
+      "resolution": "4K",
+      "fps": "120Hz"
+    },
+    "pros": [
+      "Great exclusives",
+      "Fast loading",
+      "Ray tracing"
+    ],
+    "cons": [
+      "Hard to find",
+      "Large design"
+    ],
+    "tags": [
+      "console",
+      "sony",
+      "gaming",
+      "ps5"
+    ]
+  },
+  {
+    "id": "p10",
+    "name": "Xbox Series X",
+    "brand": "Microsoft",
+    "category": "gaming console",
+    "description": "Powerful gaming console with Game Pass support.",
+    "price": 499,
+    "specs": {
+      "storage": "1TB SSD",
+      "resolution": "4K",
+      "fps": "120Hz"
+    },
+    "pros": [
+      "Game Pass library",
+      "Powerful hardware",
+      "Quiet cooling"
+    ],
+    "cons": [
+      "Few exclusives",
+      "Bulky design"
+    ],
+    "tags": [
+      "console",
+      "microsoft",
+      "gaming",
+      "xbox"
+    ]
+  },
+  {
+    "id": "p11",
+    "name": "Apple iPad Air 5",
+    "brand": "Apple",
+    "category": "tablet",
+    "description": "Powerful tablet with M1 chip and 10.9-inch Liquid Retina display.",
+    "price": 599,
+    "specs": {
+      "display": "10.9-inch Liquid Retina",
+      "storage": "64GB",
+      "chip": "Apple M1"
+    },
+    "pros": [
+      "Fast performance",
+      "Apple Pencil support",
+      "Lightweight"
+    ],
+    "cons": [
+      "Base storage too low",
+      "Expensive accessories"
+    ],
+    "tags": [
+      "tablet",
+      "apple",
+      "ipad",
+      "m1"
+    ]
+  },
+  {
+    "id": "p12",
+    "name": "Samsung Galaxy Tab S8",
+    "brand": "Samsung",
+    "category": "tablet",
+    "description": "Android tablet with S Pen support and 120Hz display.",
+    "price": 699,
+    "specs": {
+      "display": "11-inch LCD 120Hz",
+      "storage": "128GB",
+      "chip": "Snapdragon 8 Gen 1"
+    },
+    "pros": [
+      "Great display",
+      "S Pen included",
+      "Multitasking features"
+    ],
+    "cons": [
+      "Expensive",
+      "Battery life could be better"
+    ],
+    "tags": [
+      "tablet",
+      "samsung",
+      "android",
+      "galaxy"
+    ]
+  },
+  {
+    "id": "p13",
+    "name": "JBL Charge 6",
+    "brand": "JBL",
+    "category": "portable speaker",
+    "description": "A rugged and waterproof portable Bluetooth speaker with a built-in power bank.",
+    "price": 180,
+    "specs": {
+      "battery_life": "20 hours",
+      "power": "40W",
+      "wireless": "Bluetooth 5.4",
+      "water_resistance": "IP68"
+    },
+    "pros": [
+      "Excellent sound quality",
+      "Durable and waterproof",
+      "Can charge other devices"
+    ],
+    "cons": [
+      "No major design change from previous model",
+      "Expensive"
+    ],
+    "tags": [
+      "speaker",
+      "jbl",
+      "wireless",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "p14",
+    "name": "Bose SoundLink Flex",
+    "brand": "Bose",
+    "category": "portable speaker",
+    "description": "A compact and durable speaker that delivers powerful sound and deep bass for its size.",
+    "price": 149,
+    "specs": {
+      "battery_life": "12 hours",
+      "wireless": "Bluetooth 4.2",
+      "water_resistance": "IP67"
+    },
+    "pros": [
+      "Impressive bass for its size",
+      "Durable and versatile design",
+      "Built-in mic for speakerphone calls"
+    ],
+    "cons": [
+      "Older Bluetooth version",
+      "Shorter battery life than competitors"
+    ],
+    "tags": [
+      "speaker",
+      "bose",
+      "wireless",
+      "waterproof"
+    ]
+  },
+  {
+    "id": "p15",
+    "name": "Google Pixel Watch 3",
+    "brand": "Google",
+    "category": "smartwatch",
+    "description": "A stylish smartwatch with deep Fitbit integration and a larger display.",
+    "price": 315,
+    "specs": {
+      "display": "45mm OLED",
+      "os": "Wear OS",
+      "health_features": "Heart rate, sleep, ECG"
+    },
+    "pros": [
+      "Sleek design",
+      "Comprehensive fitness tracking",
+      "Seamless Google Assistant integration"
+    ],
+    "cons": [
+      "Average battery life on smaller model",
+      "Limited iPhone compatibility"
+    ],
+    "tags": [
+      "smartwatch",
+      "google",
+      "wearable",
+      "android"
+    ]
+  },
+  {
+    "id": "p16",
+    "name": "Apple Watch Series 10",
+    "brand": "Apple",
+    "category": "smartwatch",
+    "description": "The latest Apple Watch with a thinner, lighter design and improved health features.",
+    "price": 429,
+    "specs": {
+      "display": "46mm Retina OLED",
+      "os": "watchOS",
+      "health_features": "ECG, blood oxygen, temperature sensing"
+    },
+    "pros": [
+      "Excellent display and performance",
+      "Best-in-class health features",
+      "Robust app ecosystem"
+    ],
+    "cons": [
+      "Requires an iPhone",
+      "Expensive"
+    ],
+    "tags": [
+      "smartwatch",
+      "apple",
+      "wearable",
+      "ios"
+    ]
+  },
+  {
+    "id": "p17",
+    "name": "DJI Mini 4 Pro",
+    "brand": "DJI",
+    "category": "drone",
+    "description": "A compact and powerful drone with a 4K camera and advanced obstacle avoidance.",
+    "price": 759,
+    "specs": {
+      "camera": "4K/60fps",
+      "flight_time": "31 minutes",
+      "weight": "249g (no registration required)"
+    },
+    "pros": [
+      "Exceptional image quality",
+      "Advanced safety features",
+      "Extremely portable"
+    ],
+    "cons": [
+      "Requires a smartphone to operate",
+      "Can be affected by strong winds"
+    ],
+    "tags": [
+      "drone",
+      "dji",
+      "camera",
+      "hobby"
+    ]
+  },
+  {
+    "id": "p18",
+    "name": "GoPro HERO13 Black",
+    "brand": "GoPro",
+    "category": "action camera",
+    "description": "A rugged action camera with improved image stabilization and a new low-light mode.",
+    "price": 449,
+    "specs": {
+      "video_resolution": "5.3K",
+      "water_resistance": "10m (33ft)",
+      "stabilization": "HyperSmooth"
+    },
+    "pros": [
+      "Durable and waterproof design",
+      "Excellent video stabilization",
+      "High-resolution video"
+    ],
+    "cons": [
+      "Can overheat during long recordings",
+      "Battery life can be short in cold weather"
+    ],
+    "tags": [
+      "camera",
+      "gopro",
+      "action",
+      "adventure"
+    ]
+  },
+  {
+    "id": "p19",
+    "name": "Roku Streaming Stick 4K",
+    "brand": "Roku",
+    "category": "streaming device",
+    "description": "A simple and affordable streaming stick with 4K HDR support and a user-friendly interface.",
+    "price": 49,
+    "specs": {
+      "resolution": "4K HDR",
+      "wireless": "Wi-Fi 6",
+      "os": "Roku OS"
+    },
+    "pros": [
+      "Easy to use",
+      "Affordable",
+      "Fast and responsive"
+    ],
+    "cons": [
+      "Some ads on the home screen",
+      "No Dolby Atmos support"
+    ],
+    "tags": [
+      "streaming",
+      "roku",
+      "media player",
+      "budget"
+    ]
+  },
+  {
+    "id": "p20",
+    "name": "Google Nest Hub Max",
+    "brand": "Google",
+    "category": "smart home",
+    "description": "A smart display with a built-in camera and a central hub for controlling your smart home devices.",
+    "price": 229,
+    "specs": {
+      "display": "10-inch HD",
+      "camera": "12MP",
+      "os": "Google Home"
+    },
+    "pros": [
+      "Acts as a central smart home hub",
+      "High-quality display for video calls",
+      "Good sound quality"
+    ],
+    "cons": [
+      "Privacy concerns with the camera",
+      "Can be slow at times"
+    ],
+    "tags": [
+      "smart home",
+      "google",
+      "display",
+      "ai"
+    ]
+  },
+  {
+    "id": "p21",
+    "name": "Samsung S95F",
+    "brand": "Samsung",
+    "category": "tv",
+    "description": "A high-end OLED TV with exceptional picture quality and anti-glare technology.",
+    "price": 2798,
+    "specs": {
+      "display": "OLED",
+      "resolution": "4K",
+      "refresh_rate": "144Hz"
+    },
+    "pros": [
+      "Best-in-class image quality",
+      "Superior anti-glare screen",
+      "Great for gaming"
+    ],
+    "cons": [
+      "Very expensive",
+      "External input box may be inconvenient"
+    ],
+    "tags": [
+      "tv",
+      "samsung",
+      "oled",
+      "premium"
+    ]
+  },
+  {
+    "id": "p22",
+    "name": "Dell Alienware m18 R2",
+    "brand": "Dell",
+    "category": "gaming laptop",
+    "description": "A powerful gaming laptop with a large display and high-performance components.",
+    "price": 2499,
+    "specs": {
+      "display": "18-inch QHD+",
+      "processor": "Intel Core i9",
+      "graphics": "NVIDIA GeForce RTX 5080"
+    },
+    "pros": [
+      "Exceptional gaming performance",
+      "Large, high-refresh-rate display",
+      "Robust cooling system"
+    ],
+    "cons": [
+      "Very expensive",
+      "Bulky and heavy",
+      "Short battery life"
+    ],
+    "tags": [
+      "laptop",
+      "dell",
+      "gaming",
+      "high-end"
+    ]
+  },
+  {
+    "id": "p23",
+    "name": "Logitech G Pro X Superlight 2",
+    "brand": "Logitech",
+    "category": "gaming accessory",
+    "description": "An ultra-lightweight wireless gaming mouse designed for e-sports professionals.",
+    "price": 159,
+    "specs": {
+      "weight": "63g",
+      "sensor": "HERO 2",
+      "wireless": "LIGHTSPEED"
+    },
+    "pros": [
+      "Extremely lightweight and fast",
+      "Excellent sensor accuracy",
+      "Long battery life"
+    ],
+    "cons": [
+      "High price",
+      "Lacks extra programmable buttons"
+    ],
+    "tags": [
+      "gaming",
+      "logitech",
+      "mouse",
+      "wireless"
+    ]
+  },
+  {
+    "id": "p24",
+    "name": "Ring Video Doorbell Pro 2",
+    "brand": "Ring",
+    "category": "smart home",
+    "description": "A smart video doorbell with 3D motion detection and head-to-toe HD video.",
+    "price": 249,
+    "specs": {
+      "video": "1536p HD",
+      "field_of_view": "150° horizontal, 150° vertical",
+      "features": "Two-way talk, motion alerts"
+    },
+    "pros": [
+      "High-quality video and audio",
+      "Advanced motion detection",
+      "Works with Alexa"
+    ],
+    "cons": [
+      "Requires a subscription for full features",
+      "Requires wired installation"
+    ],
+    "tags": [
+      "smart home",
+      "ring",
+      "security",
+      "doorbell"
+    ]
+  },
+  {
+    "id": "p25",
+    "name": "Ecovacs Deebot T20 Omni",
+    "brand": "Ecovacs",
+    "category": "smart home",
+    "description": "A premium robot vacuum and mop with hot water mop cleaning and automatic dustbin emptying.",
+    "price": 1099,
+    "specs": {
+      "suction": "6000 Pa",
+      "features": "Auto-empty, mop washing, hot air drying",
+      "battery": "5200mAh"
+    },
+    "pros": [
+      "Fully automated cleaning",
+      "Effective at both vacuuming and mopping",
+      "Advanced obstacle avoidance"
+    ],
+    "cons": [
+      "Very expensive",
+      "Large docking station"
+    ],
+    "tags": [
+      "smart home",
+      "ecovacs",
+      "robot vacuum",
+      "automation"
+    ]
+  },
+  {
+    "id": "p26",
+    "name": "DJI Osmo Pocket 3",
+    "brand": "DJI",
+    "category": "camera",
+    "description": "A compact camera with a 3-axis gimbal for incredibly smooth, cinematic footage.",
+    "price": 519,
+    "specs": {
+      "sensor": "1-inch CMOS",
+      "video_resolution": "4K/120fps",
+      "gimbal": "3-axis stabilization"
+    },
+    "pros": [
+      "Ultra-stable video",
+      "Small and portable",
+      "Fast focusing"
+    ],
+    "cons": [
+      "Not as durable as an action camera",
+      "Limited audio input options"
+    ],
+    "tags": [
+      "camera",
+      "dji",
+      "gimbal",
+      "vlogging"
+    ]
+  },
+  {
+    "id": "p27",
+    "name": "Oura Ring Gen 4",
+    "brand": "Oura",
+    "category": "wearable",
+    "description": "A smart ring that tracks sleep, activity, and overall health with advanced sensors.",
+    "price": 349,
+    "specs": {
+      "sensors": "Heart rate, temperature, blood oxygen",
+      "material": "Titanium",
+      "battery_life": "Up to 7 days"
+    },
+    "pros": [
+      "Discreet design",
+      "In-depth sleep and health tracking",
+      "Long battery life"
+    ],
+    "cons": [
+      "Requires a monthly subscription",
+      "Not as accurate for real-time fitness tracking"
+    ],
+    "tags": [
+      "wearable",
+      "oura",
+      "health",
+      "ring"
+    ]
+  },
+  {
+    "id": "p28",
+    "name": "Logitech MX Master 4",
+    "brand": "Logitech",
+    "category": "computer accessory",
+    "description": "An ergonomic wireless mouse designed for productivity with a hyper-fast scroll wheel.",
+    "price": 99,
+    "specs": {
+      "wireless": "Bluetooth, 2.4GHz",
+      "battery_life": "Up to 70 days",
+      "features": "Multi-device connectivity, customizable buttons"
+    },
+    "pros": [
+      "Excellent ergonomic design",
+      "Highly customizable",
+      "Connects to multiple devices"
+    ],
+    "cons": [
+      "Not ideal for gaming",
+      "A bit heavy for some users"
+    ],
+    "tags": [
+      "accessory",
+      "logitech",
+      "productivity",
+      "wireless"
+    ]
+  },
+  {
+    "id": "p29",
+    "name": "Amazfit Active 2",
+    "brand": "Amazfit",
+    "category": "smartwatch",
+    "description": "A budget-friendly smartwatch with robust fitness features and a long battery life.",
+    "price": 99,
+    "specs": {
+      "display": "1.75-inch AMOLED",
+      "battery_life": "Up to 14 days",
+      "health_features": "Heart rate, SpO2, stress"
+    },
+    "pros": [
+      "Very affordable",
+      "Great battery life",
+      "Works with both Android and iOS"
+    ],
+    "cons": [
+      "App ecosystem is limited",
+      "Build quality is not premium"
+    ],
+    "tags": [
+      "smartwatch",
+      "amazfit",
+      "budget",
+      "fitness"
+    ]
+  },
+  {
+    "id": "p30",
+    "name": "LG OLED G5",
+    "brand": "LG",
+    "category": "tv",
+    "description": "The brightest LG OLED TV yet, designed for stunning picture quality in any room lighting.",
+    "price": 2999,
+    "specs": {
+      "display": "OLED Evo",
+      "resolution": "4K",
+      "refresh_rate": "144Hz"
+    },
+    "pros": [
+      "Extremely bright and vibrant picture",
+      "Perfect black levels and contrast",
+      "Sleek, gallery-style design"
+    ],
+    "cons": [
+      "High price",
+      "Doesn't come with a stand"
+    ],
+    "tags": [
+      "tv",
+      "lg",
+      "oled",
+      "premium"
+    ]
+  },
+  {
+    "id": "p31",
+    "name": "Logitech C922 Pro Stream",
+    "brand": "Logitech",
+    "category": "computer accessory",
+    "description": "A webcam optimized for streaming with full HD video and a low-light correction feature.",
+    "price": 99,
+    "specs": {
+      "video_resolution": "1080p/30fps, 720p/60fps",
+      "field_of_view": "78°",
+      "features": "Autofocus, light correction"
+    },
+    "pros": [
+      "Great video quality for the price",
+      "Smooth motion at 60fps",
+      "Good low-light performance"
+    ],
+    "cons": [
+      "No 4K resolution",
+      "Built-in microphone is average"
+    ],
+    "tags": [
+      "accessory",
+      "logitech",
+      "webcam",
+      "streaming"
+    ]
+  },
+  {
+    "id": "p32",
+    "name": "SimpliSafe Home Security System",
+    "brand": "SimpliSafe",
+    "category": "smart home",
+    "description": "A modular and easy-to-install home security system with professional monitoring options.",
+    "price": 199,
+    "specs": {
+      "sensors": "Motion, entry, glass break",
+      "features": "Cellular backup, professional monitoring",
+      "camera": "Indoor & Outdoor options"
+    },
+    "pros": [
+      "Easy DIY installation",
+      "No long-term contracts",
+      "Variety of sensors"
+    ],
+    "cons": [
+      "Some features require a monthly fee",
+      "Limited smart home integration"
+    ],
+    "tags": [
+      "smart home",
+      "simplisafe",
+      "security",
+      "diy"
+    ]
+  },
+  {
+    "id": "p33",
+    "name": "Samsung The Freestyle 2nd Gen",
+    "brand": "Samsung",
+    "category": "portable projector",
+    "description": "A compact and portable smart projector with built-in streaming and a 360-degree design.",
+    "price": 799,
+    "specs": {
+      "resolution": "1080p",
+      "brightness": "230 ANSI lumens",
+      "features": "Auto Keystone, Auto Focus, built-in speaker"
+    },
+    "pros": [
+      "Extremely portable",
+      "Great for on-the-go viewing",
+      "Easy to set up"
+    ],
+    "cons": [
+      "Lower brightness than home theater projectors",
+      "Expensive for the specs"
+    ],
+    "tags": [
+      "projector",
+      "samsung",
+      "portable",
+      "home theater"
+    ]
+  },
+  {
+    "id": "p34",
+    "name": "Anker Nebula Capsule 3",
+    "brand": "Anker",
+    "category": "portable projector",
+    "description": "A pocket-sized projector that runs on Android TV for a full smart entertainment experience.",
+    "price": 399,
+    "specs": {
+      "resolution": "1080p",
+      "battery_life": "Up to 2.5 hours",
+      "os": "Android TV"
+    },
+    "pros": [
+      "Ultra-compact design",
+      "Full Android TV apps",
+      "Built-in speaker"
+    ],
+    "cons": [
+      "Short battery life",
+      "Lower brightness"
+    ],
+    "tags": [
+      "projector",
+      "anker",
+      "portable",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "p35",
+    "name": "Google Nest Thermostat",
+    "brand": "Google",
+    "category": "smart home",
+    "description": "A smart thermostat that learns your schedule and preferences to save energy automatically.",
+    "price": 129,
+    "specs": {
+      "compatibility": "Most HVAC systems",
+      "connectivity": "Wi-Fi",
+      "features": "Learning algorithms, remote control, energy reports"
+    },
+    "pros": [
+      "Easy to install and use",
+      "Saves energy and money",
+      "Sleek design"
+    ],
+    "cons": [
+      "Fewer advanced features than premium models",
+      "No remote sensors included"
+    ],
+    "tags": [
+      "smart home",
+      "google",
+      "thermostat",
+      "energy saving"
+    ]
+  },
+  {
+    "id": "p36",
+    "name": "Ecobee Smart Thermostat Premium",
+    "brand": "Ecobee",
+    "category": "smart home",
+    "description": "A high-end smart thermostat with a built-in smart speaker and air quality sensor.",
+    "price": 249,
+    "specs": {
+      "compatibility": "Most HVAC systems",
+      "connectivity": "Wi-Fi, Alexa",
+      "features": "Room sensors, voice control, air quality monitoring"
+    },
+    "pros": [
+      "Excellent smart home integration",
+      "Comes with a remote sensor",
+      "Can act as a smart speaker"
+    ],
+    "cons": [
+      "Expensive",
+      "Can be complex to set up"
+    ],
+    "tags": [
+      "smart home",
+      "ecobee",
+      "thermostat",
+      "premium"
+    ]
+  },
+  {
+    "id": "p37",
+    "name": "Dyson Purifier Cool Gen1",
+    "brand": "Dyson",
+    "category": "air purifier",
+    "description": "A two-in-one air purifier and cooling fan with HEPA and activated carbon filters.",
+    "price": 549,
+    "specs": {
+      "filters": "HEPA and Activated Carbon",
+      "airflow": "350 liters/sec",
+      "connectivity": "Wi-Fi, app control"
+    },
+    "pros": [
+      "Dual functionality as a fan",
+      "Sleek and modern design",
+      "Effective at capturing pollutants"
+    ],
+    "cons": [
+      "Very expensive",
+      "Filters are proprietary and costly to replace"
+    ],
+    "tags": [
+      "smart home",
+      "dyson",
+      "air purifier",
+      "fan"
+    ]
+  },
+  {
+    "id": "p38",
+    "name": "Levoit Core 400S",
+    "brand": "Levoit",
+    "category": "air purifier",
+    "description": "A smart HEPA air purifier for large rooms with quiet operation and app control.",
+    "price": 219,
+    "specs": {
+      "filters": "3-in-1 HEPA filter",
+      "coverage": "403 sq ft",
+      "connectivity": "Wi-Fi, Alexa, Google Assistant"
+    },
+    "pros": [
+      "Great value for money",
+      "Very quiet, especially in sleep mode",
+      "Effective for larger spaces"
+    ],
+    "cons": [
+      "App can be clunky sometimes",
+      "Not as visually striking as Dyson"
+    ],
+    "tags": [
+      "smart home",
+      "levoit",
+      "air purifier",
+      "value"
+    ]
+  },
+  {
+    "id": "p39",
+    "name": "Wyze Cam v4",
+    "brand": "Wyze",
+    "category": "security camera",
+    "description": "An affordable indoor/outdoor security camera with color night vision and a spotlight.",
+    "price": 35,
+    "specs": {
+      "resolution": "2K",
+      "features": "Color Night Vision, spotlight, motion detection",
+      "storage": "Local (microSD) & Cloud"
+    },
+    "pros": [
+      "Extremely affordable",
+      "Excellent video quality for the price",
+      "Versatile with multiple features"
+    ],
+    "cons": [
+      "Requires a subscription for full cloud features",
+      "Build quality is not as premium"
+    ],
+    "tags": [
+      "smart home",
+      "wyze",
+      "security",
+      "budget"
+    ]
+  },
+  {
+    "id": "p40",
+    "name": "Arlo Pro 5",
+    "brand": "Arlo",
+    "category": "security camera",
+    "description": "A premium wireless security camera with 2K HDR video, two-way audio, and a wide field of view.",
+    "price": 199,
+    "specs": {
+      "resolution": "2K HDR",
+      "features": "Integrated siren, color night vision, two-way audio",
+      "wireless": "Wire-free, battery-powered"
+    },
+    "pros": [
+      "Completely wireless",
+      "High-quality video and audio",
+      "Strong smart home integration"
+    ],
+    "cons": [
+      "Expensive",
+      "Requires a subscription for advanced features"
+    ],
+    "tags": [
+      "smart home",
+      "arlo",
+      "security",
+      "premium"
+    ]
+  },
+  {
+    "id": "p41",
+    "name": "Amazon Kindle Paperwhite",
+    "brand": "Amazon",
+    "category": "e-reader",
+    "description": "A waterproof e-reader with a warm light and a glare-free display, ideal for reading anywhere.",
+    "price": 149,
+    "specs": {
+      "display": "6.8-inch E-Ink",
+      "storage": "8GB or 16GB",
+      "features": "Waterproof (IPX8), adjustable warm light"
+    },
+    "pros": [
+      "Excellent for reading in any light",
+      "Waterproof for reading by the pool",
+      "Long battery life"
+    ],
+    "cons": [
+      "Locked to Amazon's ecosystem",
+      "No physical page-turn buttons"
+    ],
+    "tags": [
+      "e-reader",
+      "amazon",
+      "kindle",
+      "reading"
+    ]
+  },
+  {
+    "id": "p42",
+    "name": "Kobo Libra 2",
+    "brand": "Kobo",
+    "category": "e-reader",
+    "description": "A waterproof e-reader with physical page-turn buttons and built-in audiobook support.",
+    "price": 179,
+    "specs": {
+      "display": "7-inch E-Ink",
+      "storage": "32GB",
+      "features": "Physical page buttons, Bluetooth for audiobooks"
+    },
+    "pros": [
+      "Physical buttons are comfortable for long reading",
+      "Supports more file formats than Kindle",
+      "Access to public library books via OverDrive"
+    ],
+    "cons": [
+      "A bit more expensive than a Kindle",
+      "Fewer content options than Amazon"
+    ],
+    "tags": [
+      "e-reader",
+      "kobo",
+      "reading",
+      "books"
+    ]
+  },
+  {
+    "id": "p43",
+    "name": "Aura Mason Luxe",
+    "brand": "Aura",
+    "category": "digital photo frame",
+    "description": "A digital picture frame with a high-resolution 2K screen and unlimited cloud storage for photos.",
+    "price": 249,
+    "specs": {
+      "display": "9.7-inch 2K",
+      "storage": "Unlimited cloud storage",
+      "connectivity": "Wi-Fi"
+    },
+    "pros": [
+      "Stunning picture quality",
+      "Unlimited free photo storage",
+      "Easy to send photos to the frame from anywhere"
+    ],
+    "cons": [
+      "Expensive",
+      "Relies on a mobile app to function"
+    ],
+    "tags": [
+      "smart home",
+      "aura",
+      "photo frame",
+      "gift"
+    ]
+  },
+  {
+    "id": "p44",
+    "name": "Nixplay Smart Photo Frame",
+    "brand": "Nixplay",
+    "category": "digital photo frame",
+    "description": "A versatile smart photo frame that can be controlled remotely and has a motion sensor.",
+    "price": 179,
+    "specs": {
+      "display": "10.1-inch",
+      "storage": "8GB internal, 10GB cloud",
+      "features": "Motion sensor, remote control"
+    },
+    "pros": [
+      "Motion sensor turns it on when you enter the room",
+      "Easy to share playlists of photos",
+      "Can be mounted on a wall or placed on a desk"
+    ],
+    "cons": [
+      "Cloud storage is limited without a subscription",
+      "Picture quality is good, but not as high-res as Aura"
+    ],
+    "tags": [
+      "smart home",
+      "nixplay",
+      "photo frame",
+      "gift"
+    ]
+  },
+  {
+    "id": "p45",
+    "name": "Roborock S8 Pro Ultra",
+    "brand": "Roborock",
+    "category": "robot vacuum",
+    "description": "A flagship robot vacuum and mop that can self-empty, wash its mop, and refill its water tank.",
+    "price": 1599,
+    "specs": {
+      "suction_power": "6000 Pa",
+      "features": "Auto-empty, mop washing, obstacle avoidance",
+      "battery": "5200mAh"
+    },
+    "pros": [
+      "Fully automated cleaning process",
+      "Strong suction power",
+      "Precise mapping and navigation"
+    ],
+    "cons": [
+      "Very expensive",
+      "The all-in-one dock is bulky"
+    ],
+    "tags": [
+      "smart home",
+      "roborock",
+      "robot vacuum",
+      "automation"
+    ]
+  },
+  {
+    "id": "p46",
+    "name": "iRobot Roomba j9+",
+    "brand": "iRobot",
+    "category": "robot vacuum",
+    "description": "A smart robot vacuum that avoids pet waste and learns your home's layout to clean efficiently.",
+    "price": 799,
+    "specs": {
+      "suction_power": "Strong",
+      "features": "Pet waste avoidance, auto-empty dock, PrecisionVision Navigation",
+      "battery": "Up to 75 minutes"
+    },
+    "pros": [
+      "Excellent at avoiding obstacles",
+      "Automatically empties its bin",
+      "Good for homes with pets"
+    ],
+    "cons": [
+      "Doesn't have a mopping function",
+      "Less powerful suction than some rivals"
+    ],
+    "tags": [
+      "smart home",
+      "irobot",
+      "robot vacuum",
+      "pet"
+    ]
+  },
+  {
+    "id": "p47",
+    "name": "August Wi-Fi Smart Lock",
+    "brand": "August",
+    "category": "smart home",
+    "description": "A smart lock that retrofits your existing deadbolt and allows keyless entry and remote access.",
+    "price": 229,
+    "specs": {
+      "wireless": "Wi-Fi, Bluetooth",
+      "features": "Auto-unlock, virtual keys, activity log",
+      "installation": "DIY over existing deadbolt"
+    },
+    "pros": [
+      "Easy to install over your current lock",
+      "Sends you notifications for access",
+      "Can automatically unlock as you approach"
+    ],
+    "cons": [
+      "A bit bulky on the inside of the door",
+      "Battery life can be short"
+    ],
+    "tags": [
+      "smart home",
+      "august",
+      "smart lock",
+      "security"
+    ]
+  },
+  {
+    "id": "p48",
+    "name": "Yale Assure Lock 2",
+    "brand": "Yale",
+    "category": "smart home",
+    "description": "A sleek smart lock with a keypad and multiple access methods, including a smartphone app.",
+    "price": 199,
+    "specs": {
+      "wireless": "Bluetooth (with Wi-Fi module)",
+      "features": "Keypad, virtual keys, auto-lock",
+      "installation": "Replaces existing deadbolt"
+    },
+    "pros": [
+      "Clean and modern design",
+      "Keypad provides an alternative access method",
+      "Highly secure"
+    ],
+    "cons": [
+      "Wi-Fi module costs extra",
+      "Requires more extensive installation than August"
+    ],
+    "tags": [
+      "smart home",
+      "yale",
+      "smart lock",
+      "security"
+    ]
+  },
+  {
+    "id": "p49",
+    "name": "Philips Hue Starter Kit",
+    "brand": "Philips",
+    "category": "smart home",
+    "description": "A starter kit that includes a Philips Hue Bridge and smart light bulbs for a customizable smart lighting system.",
+    "price": 179,
+    "specs": {
+      "connectivity": "Zigbee (Bridge required)",
+      "features": "Millions of colors, dimming, scheduling",
+      "components": "Bridge, 3 A19 bulbs"
+    },
+    "pros": [
+      "Vast ecosystem of compatible lights and accessories",
+      "Reliable and responsive",
+      "Create complex routines and automations"
+    ],
+    "cons": [
+      "Expensive initial investment",
+      "Requires a Bridge for full functionality"
+    ],
+    "tags": [
+      "smart home",
+      "philips",
+      "lighting",
+      "automation"
+    ]
+  },
+  {
+    "id": "p50",
+    "name": "AnkerWork C310",
+    "brand": "Anker",
+    "category": "computer accessory",
+    "description": "A 4K webcam with AI features, including autofocus and auto-framing, for professional-quality video calls.",
+    "price": 129,
+    "specs": {
+      "resolution": "4K/30fps, 1080p/60fps",
+      "field_of_view": "65°-95° adjustable",
+      "features": "AI noise cancellation, auto-focus, auto-framing"
+    },
+    "pros": [
+      "Crisp and clear video quality",
+      "AI features work well",
+      "Compact design"
+    ],
+    "cons": [
+      "Expensive for a webcam",
+      "Software can be buggy on some systems"
+    ],
+    "tags": [
+      "accessory",
+      "anker",
+      "webcam",
+      "work from home"
+    ]
+  },
+  {
+    "id": "p51",
+    "name": "Husqvarna Automower 450X NERA",
+    "brand": "Husqvarna",
+    "category": "robot lawn mower",
+    "description": "A high-end robotic lawn mower that uses satellite navigation, eliminating the need for a boundary wire.",
+    "price": 4499,
+    "specs": {
+      "lawn_size": "Up to 1.25 acres",
+      "connectivity": "GPS, Bluetooth, Cellular",
+      "navigation": "EPOS (satellite navigation)"
+    },
+    "pros": [
+      "No boundary wire to install",
+      "Handles large and complex yards",
+      "Highly precise navigation"
+    ],
+    "cons": [
+      "Extremely expensive",
+      "Requires a clear view of the sky"
+    ],
+    "tags": [
+      "smart home",
+      "husqvarna",
+      "lawn care",
+      "robot"
+    ]
+  },
+  {
+    "id": "p52",
+    "name": "BenQ ScreenBar Halo",
+    "brand": "BenQ",
+    "category": "computer accessory",
+    "description": "A wireless monitor light that reduces screen glare and eye strain for comfortable work.",
+    "price": 179,
+    "specs": {
+      "lighting": "Dual-color LEDs (warm and cool)",
+      "connectivity": "Wireless remote",
+      "features": "Auto-dimming, adjustable brightness & color"
+    },
+    "pros": [
+      "Reduces eye strain significantly",
+      "Provides even, flicker-free light",
+      "Saves desk space"
+    ],
+    "cons": [
+      "Very expensive for a light",
+      "Can feel flimsy on some monitors"
+    ],
+    "tags": [
+      "accessory",
+      "benq",
+      "ergonomics",
+      "work from home"
+    ]
+  },
+  {
+    "id": "p53",
+    "name": "Logitech MX Keys S Combo",
+    "brand": "Logitech",
+    "category": "computer accessory",
+    "description": "A premium wireless keyboard and mouse combo optimized for productivity and comfortable typing.",
+    "price": 219,
+    "specs": {
+      "connectivity": "Bluetooth, Logi Bolt",
+      "keyboard_features": "Backlit keys, quiet typing",
+      "mouse_features": "Fast scrolling, programmable buttons"
+    },
+    "pros": [
+      "Excellent build quality and typing feel",
+      "Can switch between three devices",
+      "Long battery life"
+    ],
+    "cons": [
+      "Expensive",
+      "Keyboard is not mechanical"
+    ],
+    "tags": [
+      "accessory",
+      "logitech",
+      "productivity",
+      "wireless"
+    ]
+  }
+]
