@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SearchResponse",
+  "type": "object",
+  "required": ["matchedProducts","summary","topRecommendation"],
+  "properties": {
+    "matchedProducts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id","name","reason","score"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "reason": { "type": "string" },
+          "score": { "type": "number" }
+        }
+      }
+    },
+    "summary": { "type": "string" },
+    "topRecommendation": {
+      "type": "object",
+      "required": ["id","name","price","why"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "price": { "type": "string" },
+        "why": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}
