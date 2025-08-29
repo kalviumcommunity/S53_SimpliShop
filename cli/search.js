@@ -8,7 +8,7 @@ if (!query) {
 
 async function runSearch() {
   try {
-    const response = await axios.post("http://localhost:5001/api/search", {
+    const response = await axios.post(`http://localhost:${process.env.PORT}/api/search`, {
       query
     });
 

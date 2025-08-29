@@ -11,15 +11,20 @@ const validate = ajv.compile(searchSchema);
 const MAX_PRODUCTS_IN_PROMPT = 8;
 
 function sliceCandidates(products, query) {
+  if (!Array.isArray(products) || !query || typeof query !== "string") {
+    return [];
+  }
+
   const q = query.toLowerCase();
-  const byNameOrDesc = products.filter(p =>
-    (p.name && p.name.toLowerCase().includes(q)) ||
-    (p.description && p.description.toLowerCase().includes(q)) ||
-    (p.tags && p.tags.join(" ").toLowerCase().includes(q))
+  const byNameOrDesc = products.filter(
+    (p) =>
+      (p.name && p.name.toLowerCase().includes(q)) ||
+      (p.description && p.description.toLowerCase().includes(q)) ||
+      (p.tags && p.tags.join(" ").toLowerCase().includes(q))
   );
   return (byNameOrDesc.length ? byNameOrDesc : products)
     .slice(0, MAX_PRODUCTS_IN_PROMPT)
-    .map(p => ({
+    .map((p) => ({
       id: String(p.id),
       name: p.name,
       brand: p.brand,
@@ -28,7 +33,7 @@ function sliceCandidates(products, query) {
       pros: p.pros,
       cons: p.cons,
       tags: p.tags,
-      description: p.description
+      description: p.description,
     }));
 }
 
@@ -49,7 +54,7 @@ async function searchProduct(req, res) {
         query,
         warning: "LLM output could not be parsed",
         candidates,
-        llm_raw: raw
+        llm_raw: raw,
       });
     }
 
@@ -62,14 +67,16 @@ async function searchProduct(req, res) {
         warning: "Invalid schema",
         candidates,
         recommendation,
-        validationErrors: validate.errors
+        validationErrors: validate.errors,
       });
     }
 
     return res.json({ query, candidates, recommendation });
   } catch (err) {
     console.error("Search error:", err);
-    return res.status(500).json({ error: "internal server error", details: err.message });
+    return res
+      .status(500)
+      .json({ error: "internal server error", details: err.message });
   }
 }
 
