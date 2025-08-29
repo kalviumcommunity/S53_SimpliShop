@@ -14,7 +14,7 @@ if (!query) {
 
 async function runSearch() {
   try {
-    const response = await axios.post(`http://localhost:5001/api/search`, {
+    const response = await axios.post(`http://localhost:${process.env.PORT || 5001}/api/search`, {
       query,
       mode,
     });
@@ -41,11 +41,19 @@ async function runSearch() {
     console.log(data.recommendation.summary);
 
     console.log("\n✅ Matched Products:");
-    data.recommendation.matchedProducts.forEach((p, idx) => {
-      console.log(
-        `   ${idx + 1}. ${p.name} - Score: ${p.score} | Reason: ${p.reason}`
-      );
-    });
+
+    if (
+      Array.isArray(data.recommendation?.matchedProducts) &&
+      data.recommendation.matchedProducts.length
+    ) {
+      data.recommendation.matchedProducts.forEach((p, idx) => {
+        console.log(
+          `   ${idx + 1}. ${p.name} - Score: ${p.score} | Reason: ${p.reason}`
+        );
+      });
+    } else {
+      console.warn("⚠️ No matched products returned.");
+    }
   } catch (err) {
     console.error("❌ Error:", err.response?.data || err.message);
   }
