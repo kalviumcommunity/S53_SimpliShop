@@ -1,6 +1,9 @@
 const products = require("../data/products.json");
 const { askGemini } = require("../services/gemini");
-const { buildZeroShotPrompt } = require("../services/promptTemplates");
+const {
+  buildZeroShotPrompt,
+  buildOneShotPrompt,
+} = require("../services/promptTemplates");
 const { parseJsonWithRepair } = require("../utils/parseRepair");
 const Ajv = require("ajv");
 const searchSchema = require("../schema/searchResponse.json");
@@ -39,12 +42,20 @@ function sliceCandidates(products, query) {
 
 async function searchProduct(req, res) {
   try {
-    const { query } = req.body;
+    const { query, mode = "zero-shot" } = req.body;
     if (!query) return res.status(400).json({ error: "query required" });
 
     const candidates = sliceCandidates(products, query);
 
-    const prompt = buildZeroShotPrompt(query, candidates);
+    let prompt;
+    switch (mode) {
+      case "one-shot":
+        prompt = buildOneShotPrompt(query, candidates);
+        break;
+      case "zero-shot":
+      default:
+        prompt = buildZeroShotPrompt(query, candidates);
+    }
 
     const raw = await askGemini(prompt);
 
