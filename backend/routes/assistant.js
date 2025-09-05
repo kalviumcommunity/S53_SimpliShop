@@ -1,8 +1,8 @@
-const express = require("express");
-const { chatAssistant } = require("../controllers/assistantController");
+import express from "express";
+import { chatAssistant } from "../controllers/assistantController.js";
 
 const router = express.Router();
 
 router.post("/", chatAssistant);
 
-module.exports = router;
+export default router;

@@ -1,6 +1,7 @@
-const axios = require("axios");
+import axios from "axios";
+import dotenv from "dotenv";
 
-require("dotenv").config();
+dotenv.config();
 
 const args = process.argv.slice(2);
 const query = args.filter((a) => !a.startsWith("--")).join(" ");
@@ -14,16 +15,16 @@ if (!query) {
 
 async function runSearch() {
   try {
-    const response = await axios.post(`http://localhost:${process.env.PORT || 5001}/api/search`, {
-      query,
-      mode,
-    });
-
+    const response = await axios.post(
+      `http://localhost:${process.env.PORT || 5001}/api/search`,
+      {
+        query,
+        mode,
+      }
+    );
     const data = response.data;
-
     console.log("\n🔍 Query:", data.query);
     console.log("\n📌 Top Recommendation:");
-
     if (!data.recommendation || !data.recommendation.topRecommendation) {
       console.error(
         "❌ No valid recommendation returned. LLM raw output:",
@@ -31,17 +32,13 @@ async function runSearch() {
       );
       process.exit(1);
     }
-
     console.log(
       `   ${data.recommendation.topRecommendation.name} (${data.recommendation.topRecommendation.price})`
     );
     console.log(`   Why: ${data.recommendation.topRecommendation.why}`);
-
     console.log("\n📊 Summary:");
     console.log(data.recommendation.summary);
-
     console.log("\n✅ Matched Products:");
-
     if (
       Array.isArray(data.recommendation?.matchedProducts) &&
       data.recommendation.matchedProducts.length
@@ -58,5 +55,4 @@ async function runSearch() {
     console.error("❌ Error:", err.response?.data || err.message);
   }
 }
-
 runSearch();

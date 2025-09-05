@@ -1,23 +1,22 @@
-const products = require("../data/products.json");
-const { askGemini } = require("../services/gemini");
-const {
-  buildZeroShotPrompt,
+import Ajv from "ajv";
+import products from "../data/products.json" with { type: "json" };
+import searchSchema from "../schema/searchResponse.json" with { type: "json" };
+import askGemini from "../services/gemini.js";
+import {
   buildOneShotPrompt,
-} = require("../services/promptTemplates");
-const { parseJsonWithRepair } = require("../utils/parseRepair");
-const Ajv = require("ajv");
-const searchSchema = require("../schema/searchResponse.json");
-
-const ajv = new Ajv({ allErrors: true, strict: false });
+  buildZeroShotPrompt,
+} from "../services/promptTemplates.js";
+import { parseJsonWithRepair } from "../utils/parseRepair.js";
+const ajv = new Ajv({
+  allErrors: true,
+  strict: false,
+});
 const validate = ajv.compile(searchSchema);
-
 const MAX_PRODUCTS_IN_PROMPT = 8;
-
 function sliceCandidates(products, query) {
   if (!Array.isArray(products) || !query || typeof query !== "string") {
     return [];
   }
-
   const q = query.toLowerCase();
   const byNameOrDesc = products.filter(
     (p) =>
@@ -39,14 +38,14 @@ function sliceCandidates(products, query) {
       description: p.description,
     }));
 }
-
 async function searchProduct(req, res) {
   try {
     const { query, mode = "zero-shot" } = req.body;
-    if (!query) return res.status(400).json({ error: "query required" });
-
+    if (!query)
+      return res.status(400).json({
+        error: "query required",
+      });
     const candidates = sliceCandidates(products, query);
-
     let prompt;
     switch (mode) {
       case "one-shot":
@@ -56,9 +55,7 @@ async function searchProduct(req, res) {
       default:
         prompt = buildZeroShotPrompt(query, candidates);
     }
-
     const raw = await askGemini(prompt);
-
     const parsed = await parseJsonWithRepair(raw, searchSchema);
     if (!parsed.ok) {
       return res.status(200).json({
@@ -68,9 +65,7 @@ async function searchProduct(req, res) {
         llm_raw: raw,
       });
     }
-
     const recommendation = parsed.json;
-
     const valid = validate(recommendation);
     if (!valid) {
       return res.status(200).json({
@@ -81,14 +76,17 @@ async function searchProduct(req, res) {
         validationErrors: validate.errors,
       });
     }
-
-    return res.json({ query, candidates, recommendation });
+    return res.json({
+      query,
+      candidates,
+      recommendation,
+    });
   } catch (err) {
     console.error("Search error:", err);
-    return res
-      .status(500)
-      .json({ error: "internal server error", details: err.message });
+    return res.status(500).json({
+      error: "internal server error",
+      details: err.message,
+    });
   }
 }
-
-module.exports = { searchProduct };
+export { searchProduct };
