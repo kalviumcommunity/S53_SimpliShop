@@ -13,6 +13,4 @@ async function askGemini(prompt) {
   return result.response.text();
 }
 
-export default {
-  askGemini,
-};
+export default askGemini;

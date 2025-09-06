@@ -28,7 +28,7 @@ async function main() {
     const embeddings = await embedMany(products.map(productToText));
     const output = products.map((p, i) => ({
         ...p,
-        embedding: embeddings[i],
+        embedding: Array.from(embeddings[i]),
     }));
     fs.writeFileSync(EMBEDDINGS_FILE, JSON.stringify(output, null, 2));
     console.log(`Wrote ${embeddings.length} embeddings to ${EMBEDDINGS_FILE}`);
