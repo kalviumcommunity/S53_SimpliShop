@@ -1,19 +1,21 @@
-const products = require("../data/products.json");
+import products from "../data/products.json" with { type: "json" };
 
 async function findAlternative(req, res) {
   try {
     const { product } = req.body;
     if (!product) {
-      return res.status(400).json({ error: "Provide product name" });
+      return res.status(400).json({
+        error: "Provide product name",
+      });
     }
-
     const found = products.find((p) =>
       p.name.toLowerCase().includes(product.toLowerCase())
     );
     if (!found) {
-      return res.status(404).json({ error: "Product not found" });
+      return res.status(404).json({
+        error: "Product not found",
+      });
     }
-
     const alternative =
       products.find(
         (p) => p.id !== found.id && p.category === found.category
@@ -24,8 +26,12 @@ async function findAlternative(req, res) {
       reason: "Alternative suggested based on category similarity",
     });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({
+      error: error.message,
+    });
   }
 }
+export {
+  findAlternative
+};
 
-module.exports = { findAlternative };

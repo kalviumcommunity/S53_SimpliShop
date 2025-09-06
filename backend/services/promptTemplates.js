@@ -16,7 +16,6 @@ Task:
 }
 `;
 }
-
 const ONE_SHOT_EXAMPLE = `Example:
 {
   "matchedProducts":[
@@ -26,7 +25,6 @@ const ONE_SHOT_EXAMPLE = `Example:
   "topRecommendation":{"id":"p1","name":"Sony WH-CH510","price":"$59","why":"Affordable and lightweight, suitable for everyday use."}
 }
 `;
-
 function buildOneShotPrompt(query, productsSlice) {
   return `
 You are SimpliShop, an expert shopping assistant.
@@ -43,5 +41,4 @@ Task:
 - Do not create products not listed in the candidates.
 `;
 }
-
-module.exports = { buildZeroShotPrompt, buildOneShotPrompt };
+export { buildZeroShotPrompt, buildOneShotPrompt };
